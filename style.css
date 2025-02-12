@@ -44,7 +44,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     position: absolute;
     left:-50px;
     top:-50px;
-    z-index: -1;
+    z-index:-1;
 }
 
 .clock-box::after{
@@ -56,7 +56,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     position: absolute;
     right:-50px;
     bottom:-50px;
-    z-index: -1;
+    z-index:-1;
 }
 
 .time-display span{
@@ -64,7 +64,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     font-weight: 110px;
     text-align: center;
     display: inline-block;
-    position: relative;
+    position:relative;
 }
 
 .time-display span::after{
@@ -75,16 +75,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     transform:translate(-50%);
 }
 #hrs::after{
-    content: "HOURS";
+    content:"HOURS";
 }
 #min::after{
-    content: "MINS";
+    content:"MINS";
 }
 #sec::after{
-    content: "SEC";
+    content:"SEC";
 }
 
-@media (max-width:1024px){
+@media(max-width:1024px){
     .clock-box {
         width: 90%;
         height: 160px;
@@ -95,7 +95,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     }
 }
 
-@media (max-width:768px) {
+@media(max-width:768px) {
     .clock-box{
         width: 90%;
         height: 150px;
@@ -106,7 +106,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(
     }
 }
 
-@media (max-width:480px){
+@media(max-width:480px){
     .clock-box{
         width: 95%;
         height: 140px;
